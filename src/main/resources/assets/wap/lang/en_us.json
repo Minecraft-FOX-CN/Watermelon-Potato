@@ -1,0 +1,13 @@
+{
+  "itemgroup.wap.potato_item_group": "WAP",
+
+  "item.wap.watermelon_potato_spawn_egg": "Potato Spawn Egg",
+  "item.wap.potato_pickaxe": "Potato Pickaxe",
+  "item.wap.potato_axe": "Potato Axe",
+  "item.wap.potato_sword": "Potato Sword",
+
+  "block.wap.potato_block": "Potato Block",
+
+  "sound.wap.potato_introduction": "Potato is introducing himself",
+  "sound.wap.potato_introduction_reversal": "himself introduce by potato"
+}

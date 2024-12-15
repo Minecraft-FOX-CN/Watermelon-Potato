@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "wap",
+	"version": "${version}",
+	"name": "Watermelon Potato",
+	"description": "为了老逗子制作的mod",
+	"authors": [
+		"MinecraftFox127"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPLv3",
+	"icon": "assets/wap/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"watermelon.potato.WatermelonAndPotato"
+		],
+		"fabric-datagen": [
+			"watermelon.potato.WatermelonAndPotatoDataGenerator"
+		]
+	},
+	"mixins": [
+		"wap.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

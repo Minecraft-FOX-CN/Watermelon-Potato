@@ -1,0 +1,10 @@
+{
+  "potato_introduction": {
+    "subtitle": "sound.wap.potato_introduction",
+    "sounds": ["wap:potato_introduction"]
+  },
+  "potato_introduction_reversal": {
+    "subtitle": "sound.wap.potato_introduction_reversal",
+    "sounds": ["wap:potato_introduction_reversal"]
+  }
+}

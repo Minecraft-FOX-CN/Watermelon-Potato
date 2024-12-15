@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wap:block/potato_block"
+    }
+  }
+}
