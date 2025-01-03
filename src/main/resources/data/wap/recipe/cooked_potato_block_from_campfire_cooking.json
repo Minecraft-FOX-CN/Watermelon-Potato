@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "wap:potato_block",
+  "result": {
+    "id": "wap:cooked_potato_block"
+  }
+}

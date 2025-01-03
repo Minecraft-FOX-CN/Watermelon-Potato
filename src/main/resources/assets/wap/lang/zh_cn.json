@@ -7,7 +7,10 @@
   "item.wap.potato_sword": "吐逗剑",
 
   "block.wap.potato_block": "吐逗块",
+  "block.wap.cooked_potato_block": "熟吐逗块",
 
   "sound.wap.potato_introduction": "吐逗正在介绍他自己",
-  "sound.wap.potato_introduction_reversal": "己自他绍介在正逗吐"
+  "sound.wap.potato_introduction_reversal": "己自他绍介在正逗吐",
+
+  "biome.wap.potato_plains": "吐逗平原"
 }

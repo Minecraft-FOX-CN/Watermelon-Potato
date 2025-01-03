@@ -15,6 +15,7 @@ public class ModItemGroups {
             .displayName(Text.translatable("itemgroup.wap.potato_item_group"))
             .entries(((displayContext, entries) -> {
                 entries.add(ModBlocks.POTATO_BLOCK);
+                entries.add(ModBlocks.COOKED_POTATO_BLOCK);
                 entries.add(ModItems.POTATO_AXE);
                 entries.add(ModItems.POTATO_PICKAXE);
                 entries.add(ModItems.POTATO_SWORD);

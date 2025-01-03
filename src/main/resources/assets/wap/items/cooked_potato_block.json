@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "wap:block/cooked_potato_block"
+  }
+}
