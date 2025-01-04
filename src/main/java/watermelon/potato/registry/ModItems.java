@@ -17,18 +17,23 @@ import watermelon.potato.common.Item.PotatoSword;
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item WATERMELON_POTATO_SPAWN_EGG = registerItem("watermelon_potato_spawn_egg", settings -> new SpawnEggItem(ModEntityTypes.WATERMELON_POTATO_ENTITY_TYPE, settings), new Item.Settings()
+    public static final Item WATERMELON_POTATO_SPAWN_EGG = register("watermelon_potato_spawn_egg", settings -> new SpawnEggItem(ModEntityTypes.WATERMELON_POTATO_ENTITY_TYPE, settings), new Item.Settings()
             .maxCount(1));
 
-    public static final Item POTATO_PICKAXE = registerItem("potato_pickaxe", PotatoPickaxe::new, new Item.Settings()
+    public static final Item POTATO_PICKAXE = register("potato_pickaxe", PotatoPickaxe::new, new Item.Settings()
             .food(FoodComponents.COOKED_BEEF));
 
-    public static final Item POTATO_SWORD = registerItem("potato_sword", PotatoSword::new, new Item.Settings()
-            .food(FoodComponents.COOKED_CHICKEN));
+    public static final Item POTATO_SWORD = register("potato_sword", PotatoSword::new, new Item.Settings()
+            .food(FoodComponents.COOKED_PORKCHOP));
 
-    public static final Item POTATO_AXE = registerItem("potato_axe", PotatoAxe::new, new Item.Settings()
+    public static final Item POTATO_AXE = register("potato_axe", PotatoAxe::new, new Item.Settings()
             .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true)));
-    public static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
+
+    public static final Item WATERMELON_AND_POTATO = register("melon_potato", watermelon.potato.common.Item.WatermelonAndPotato::new, new Item.Settings()
+            .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))
+            .food(FoodComponents.GOLDEN_CARROT));
+
+    public static Item register(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         final RegistryKey<Item> registryKey = RegistryKey.of(RegistryKeys.ITEM, WatermelonAndPotato.makeID(name));
         return Items.register(registryKey, factory, settings);
     }
@@ -37,6 +42,7 @@ public class ModItems {
         FuelRegistryEvents.BUILD.register((builder, context) -> {
             builder.add(POTATO_PICKAXE, 300);
             builder.add(POTATO_SWORD, 200);
+            builder.add(ModBlocks.POTATO_BLOCK, 16384);
         });
     }
 

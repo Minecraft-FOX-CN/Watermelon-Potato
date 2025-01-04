@@ -12,8 +12,8 @@ import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 import watermelon.potato.registry.ModSoundEvents;
 
-public class PotatoBlock extends Block {
-    public PotatoBlock(Settings settings) {
+public class WatermelonPotatoBlock extends Block {
+    public WatermelonPotatoBlock(Settings settings) {
         super(settings);
     }
 
