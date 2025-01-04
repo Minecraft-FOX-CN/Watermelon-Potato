@@ -5,9 +5,12 @@
   "item.wap.potato_pickaxe": "吐逗镐",
   "item.wap.potato_axe": "吐逗斧",
   "item.wap.potato_sword": "吐逗剑",
+  "item.wap.melon_and_potato": "西瓜吐逗",
 
   "block.wap.potato_block": "吐逗块",
   "block.wap.cooked_potato_block": "熟吐逗块",
+
+  "entity.wap.melon_potato": "西瓜吐逗",
 
   "sound.wap.potato_introduction": "吐逗正在介绍他自己",
   "sound.wap.potato_introduction_reversal": "己自他绍介在正逗吐",

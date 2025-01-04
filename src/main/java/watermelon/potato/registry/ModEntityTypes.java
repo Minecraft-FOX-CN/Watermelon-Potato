@@ -13,7 +13,7 @@ import watermelon.potato.WatermelonAndPotato;
 import watermelon.potato.common.entity.object.WatermelonPotatoEntity;
 
 public class ModEntityTypes {
-    public static final EntityType<WatermelonPotatoEntity> WATERMELON_POTATO_ENTITY_TYPE = register("water_potato_entity",
+    public static final EntityType<WatermelonPotatoEntity> WATERMELON_POTATO_ENTITY_TYPE = register("melon_potato",
             EntityType.Builder.create(WatermelonPotatoEntity::new, SpawnGroup.MONSTER)
                     .dimensions(0.6F, 1.95F)
                     .eyeHeight(1.74F)
@@ -28,12 +28,12 @@ public class ModEntityTypes {
 
     public static void initialize() {
         FabricDefaultAttributeRegistry.register(WATERMELON_POTATO_ENTITY_TYPE, WatermelonPotatoEntity.createHostileAttributes()
-                .add(EntityAttributes.MAX_HEALTH, 35)
+                .add(EntityAttributes.MAX_HEALTH, 120)
                 .add(EntityAttributes.ATTACK_DAMAGE, 4)
                 .add(EntityAttributes.ATTACK_SPEED, 1)
                 .add(EntityAttributes.MOVEMENT_SPEED, 0.2f)
                 .add(EntityAttributes.KNOCKBACK_RESISTANCE, 2)
-                .add(EntityAttributes.FOLLOW_RANGE, 16));
+                .add(EntityAttributes.FOLLOW_RANGE, 24));
 
         WatermelonAndPotato.LOGGER.debug("OH GOD I DON'T KNOW WHAT THINGS I CAN PUT HERE");
     }

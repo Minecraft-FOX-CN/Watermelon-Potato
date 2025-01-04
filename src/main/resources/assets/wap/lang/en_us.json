@@ -5,9 +5,17 @@
   "item.wap.potato_pickaxe": "Potato Pickaxe",
   "item.wap.potato_axe": "Potato Axe",
   "item.wap.potato_sword": "Potato Sword",
+  "item.wap.melon_and_potato": "Melon With Potato",
+  "item.wap.melon_potato_chestplate": "Melon Potato Chestplate",
+  "item.wap.melon_potato_boots": "Melon Potato Boots",
+  "item.wap.melon_potato_leggings": "Melon Potato Leggings",
+  "item.wap.melon_potato_helmet": "Melon Potato Helmet",
+
 
   "block.wap.potato_block": "Potato Block",
   "block.wap.cooked_potato_block": "Cooked Potato Block",
+
+  "entity.wap.melon_potato": "Mr.Melon Potato",
 
   "sound.wap.potato_introduction": "Potato is introducing himself",
   "sound.wap.potato_introduction_reversal": "himself introduce by potato",

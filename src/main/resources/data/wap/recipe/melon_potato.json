@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:potato",
+    "O": "minecraft:melon_slice"
+  },
+  "pattern": [
+    "#O#",
+    "O#O",
+    "#O#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "wap:melon_potato"
+  }
+}

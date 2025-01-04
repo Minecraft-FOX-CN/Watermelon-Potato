@@ -137,9 +137,9 @@
     "misc": [],
     "monster": [
       {
-        "type": "wap:water_potato_entity",
-        "maxCount": 4,
-        "minCount": 4,
+        "type": "wap:melon_potato",
+        "maxCount": 8,
+        "minCount": 2,
         "weight": 100
       },
       {

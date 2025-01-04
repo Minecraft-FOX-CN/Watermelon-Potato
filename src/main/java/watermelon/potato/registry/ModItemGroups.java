@@ -16,6 +16,7 @@ public class ModItemGroups {
             .entries(((displayContext, entries) -> {
                 entries.add(ModBlocks.POTATO_BLOCK);
                 entries.add(ModBlocks.COOKED_POTATO_BLOCK);
+                entries.add(ModItems.WATERMELON_AND_POTATO);
                 entries.add(ModItems.POTATO_AXE);
                 entries.add(ModItems.POTATO_PICKAXE);
                 entries.add(ModItems.POTATO_SWORD);

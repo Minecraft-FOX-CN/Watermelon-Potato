@@ -6,6 +6,4 @@ public class WatermelonAndPotato extends Item {
     public WatermelonAndPotato(Settings settings) {
         super(settings);
     }
-
-
 }
