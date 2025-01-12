@@ -11,4 +11,8 @@ public class ModTags {
     private static TagKey<Item> of(String id) {
         return TagKey.of(RegistryKeys.ITEM, WatermelonAndPotato.makeID(id));
     }
+
+    public static void initialize() {
+        WatermelonAndPotato.LOGGER.debug("OH GOD I DON'T KNOW WHAT THINGS I CAN PUT HERE");
+    }
 }

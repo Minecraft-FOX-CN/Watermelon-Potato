@@ -3,15 +3,15 @@
   "category": "equipment",
   "key": {
     "#": "wap:potato_melon_core",
-    "|": "minecraft:stick"
+    "O": "wap:melon_and_potato"
   },
   "pattern": [
-    "##",
-    "#|",
-    " |"
+    "#O#",
+    "# #",
+    "# #"
   ],
   "result": {
     "count": 1,
-    "id": "wap:potato_axe"
+    "id": "wap:melon_potato_leggings"
   }
 }

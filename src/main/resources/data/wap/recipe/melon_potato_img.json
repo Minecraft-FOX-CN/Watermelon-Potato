@@ -2,16 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "wap:potato_melon_core",
-    "|": "minecraft:stick"
+    "#": "wap:melon_and_potato"
   },
   "pattern": [
-    "##",
-    "#|",
-    " |"
+    "###"
   ],
   "result": {
     "count": 1,
-    "id": "wap:potato_axe"
+    "id": "wap:melon_and_potato_img"
   }
 }

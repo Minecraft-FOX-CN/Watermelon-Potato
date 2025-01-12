@@ -1,9 +1,7 @@
 package watermelon.potato.registry;
 
 import net.minecraft.item.equipment.ArmorMaterial;
-import net.minecraft.item.equipment.EquipmentAssetKeys;
 import net.minecraft.item.equipment.EquipmentType;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Util;
 
@@ -16,5 +14,6 @@ public interface ModArmorMaterials {
         map.put(EquipmentType.CHESTPLATE, 8);
         map.put(EquipmentType.HELMET, 3);
         map.put(EquipmentType.BODY, 11);
-    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0F, 0.5F, ModTags.POTATO, EquipmentAssetKeys.DIAMOND);
+    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0F, 0.5F, ModTags.POTATO, ModEquipmentAssetKeys.MELON_POTATO);
+
 }

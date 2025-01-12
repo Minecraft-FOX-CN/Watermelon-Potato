@@ -28,12 +28,13 @@ public class ModEntityTypes {
 
     public static void initialize() {
         FabricDefaultAttributeRegistry.register(WATERMELON_POTATO_ENTITY_TYPE, WatermelonPotatoEntity.createHostileAttributes()
-                .add(EntityAttributes.MAX_HEALTH, 120)
-                .add(EntityAttributes.ATTACK_DAMAGE, 4)
-                .add(EntityAttributes.ATTACK_SPEED, 1)
-                .add(EntityAttributes.MOVEMENT_SPEED, 0.2f)
-                .add(EntityAttributes.KNOCKBACK_RESISTANCE, 2)
-                .add(EntityAttributes.FOLLOW_RANGE, 24));
+                        .add(EntityAttributes.MAX_HEALTH, 200)
+                        .add(EntityAttributes.ATTACK_DAMAGE, 4)
+                        .add(EntityAttributes.ATTACK_SPEED, 0.4)
+                        .add(EntityAttributes.MOVEMENT_SPEED, 0.25)
+                        .add(EntityAttributes.KNOCKBACK_RESISTANCE, 2)
+                        .add(EntityAttributes.SCALE, 2)
+                        .add(EntityAttributes.FOLLOW_RANGE, 24));
 
         WatermelonAndPotato.LOGGER.debug("OH GOD I DON'T KNOW WHAT THINGS I CAN PUT HERE");
     }

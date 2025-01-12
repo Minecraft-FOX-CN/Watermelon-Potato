@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "minecraft:potato",
+    "#": "wap:potato_melon_core",
     "|": "minecraft:stick"
   },
   "pattern": [

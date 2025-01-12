@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "wap:melon_potato"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "wap:melon_potato"
+      }
+    ]
+  }
+}

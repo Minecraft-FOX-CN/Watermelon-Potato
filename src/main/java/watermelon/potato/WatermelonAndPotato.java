@@ -29,5 +29,6 @@ public class WatermelonAndPotato implements ModInitializer {
 		ModEntityTypes.initialize();
 		ModSoundEvents.initialize();
 		ModEntityRenderer.initialize();
+		ModTags.initialize();
 	}
 }

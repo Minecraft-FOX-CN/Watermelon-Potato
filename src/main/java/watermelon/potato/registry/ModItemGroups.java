@@ -16,10 +16,16 @@ public class ModItemGroups {
             .entries(((displayContext, entries) -> {
                 entries.add(ModBlocks.POTATO_BLOCK);
                 entries.add(ModBlocks.COOKED_POTATO_BLOCK);
+                entries.add(ModBlocks.POTATO_MELON_CORE);
                 entries.add(ModItems.WATERMELON_AND_POTATO);
                 entries.add(ModItems.POTATO_AXE);
                 entries.add(ModItems.POTATO_PICKAXE);
                 entries.add(ModItems.POTATO_SWORD);
+                entries.add(ModItems.WATERMELON_AND_POTATO_IMG);
+                entries.add(ModItems.MELON_POTATO_BOOTS);
+                entries.add(ModItems.MELON_POTATO_LEGGINGS);
+                entries.add(ModItems.MELON_POTATO_CHESTPLATE);
+                entries.add(ModItems.MELON_POTATO_HELMET);
                 entries.add(ModItems.WATERMELON_POTATO_SPAWN_EGG);
             }))
             .build());

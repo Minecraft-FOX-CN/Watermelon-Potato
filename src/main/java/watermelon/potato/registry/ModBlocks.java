@@ -21,6 +21,12 @@ public class ModBlocks {
                     .requiresTool(),
             new Item.Settings().food(ModFoodComponents.POTATO_BLOCK));
 
+    public static final Block POTATO_MELON_CORE = register("potato_melon_core", WatermelonPotatoBlock::new, AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .strength(16f, 8f)
+                    .requiresTool(),
+            new Item.Settings().food(ModFoodComponents.COOKED_POTATO_BLOCK));
+
     public static final Block COOKED_POTATO_BLOCK = register("cooked_potato_block", WatermelonPotatoBlock::new, AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.GRASS)
                     .strength(4f, 2f)

@@ -6,14 +6,22 @@
   "item.wap.potato_axe": "吐逗斧",
   "item.wap.potato_sword": "吐逗剑",
   "item.wap.melon_and_potato": "西瓜吐逗",
+  "item.wap.melon_and_potato_img": "西瓜吐逗的头像",
+  "item.wap.melon_potato_chestplate": "瓜逗胸甲",
+  "item.wap.melon_potato_boots": "瓜逗靴子",
+  "item.wap.melon_potato_leggings": "瓜逗护腿",
+  "item.wap.melon_potato_helmet": "瓜逗头盔",
 
   "block.wap.potato_block": "吐逗块",
   "block.wap.cooked_potato_block": "熟吐逗块",
+  "block.wap.potato_melon_core": "西瓜吐逗核心",
 
   "entity.wap.melon_potato": "西瓜吐逗",
 
   "sound.wap.potato_introduction": "吐逗正在介绍他自己",
   "sound.wap.potato_introduction_reversal": "己自他绍介在正逗吐",
 
-  "biome.wap.potato_plains": "吐逗平原"
+  "biome.wap.potato_plains": "吐逗平原",
+
+  "message.wap.use_on_potato_sword": "为———————什———————么———————?"
 }
